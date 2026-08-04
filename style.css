@@ -1,0 +1,109 @@
+*{
+    margin:0;
+    background-color: rgb(209, 159, 97);
+}
+.navbar{
+    background-color: rgb(73, 22, 6);
+    border-bottom: 1.7px solid whitesmoke;
+    height:35px;
+    display:flex;
+    justify-content: space-between;   
+}
+.name{
+    color:whitesmoke;
+    margin-top:9px;
+    margin-left:105px;
+    font-size:13px;
+    font-family:'Times New Roman';
+    background-color: rgb(73, 22, 6);
+}
+.name:hover{
+    color:rgb(243, 102, 51);
+}
+.information{
+    display: flex;
+    justify-content: end;
+    gap:22px;
+    color:rgb(143, 77, 23);
+    margin-top:9px;
+    margin-right:55px;
+    font-size:13px;
+    background-color:rgb(73, 22, 6);
+}
+.information p{
+    background-color: rgb(73, 22, 6);
+    
+}
+.information p:hover{
+    text-decoration: underline;
+}
+.me{
+    display: flex;
+    justify-content: center;
+    margin-top:70px;
+    margin-right:563px;
+}
+.me input{
+    color:rgb(143, 77, 23);
+    background-color: rgb(240, 242, 243);
+    border:1.6px solid rgb(85, 55, 0);
+    font-size: 8px;
+    font-weight: bold;
+    border-radius:15px;
+    height:25px;
+    width:120px;
+}
+.developer{
+    margin-top:8px;
+    margin-left:117px;
+}
+.developer p{
+    margin-top:5px;
+    font-size: 35px;
+    color:rgb(209, 159, 97);
+}
+.developer p:hover{
+     color:rgb(6, 47, 94);
+}
+.learning{
+    margin-top:22px;
+    margin-left:109px;
+    color:white;
+
+}
+.learning p{
+    font-size: 12px;
+    margin-top:5.7px;
+}
+.learning:hover{
+    color:rgb(153, 53, 17);
+}
+.buttons{
+    display:flex;
+    gap:23px;
+    margin-left:106px;
+    margin-top:7px;
+}
+.view button{
+    color:white;
+    border:1.5px solid rgb(201, 117, 39);
+    background-color: rgb(201, 117, 39);
+    border-radius:20px;
+    height:19px;
+    font-size:10px;
+}
+.view i{
+    background-color: rgb(201, 117, 39);
+}
+.touch button{
+    color:black;
+    border:1.5px solid rgb(167, 103, 60);
+    border-radius:20px;
+    font-size:10px;
+    height:18px;
+}
+.currently{
+    border:1.8px solid rgb(179, 120, 81);
+    width: 200px;
+    border-radius: 10px;
+}
