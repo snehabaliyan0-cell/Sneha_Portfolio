@@ -4,16 +4,16 @@
 }
 .navbar{
     background-color: rgb(73, 22, 6);
-    border-bottom: 1.7px solid whitesmoke;
-    height:35px;
+    border-bottom: 2px solid whitesmoke;
+    height:45px;
     display:flex;
     justify-content: space-between;   
 }
 .name{
     color:whitesmoke;
-    margin-top:9px;
+    margin-top:13px;
     margin-left:105px;
-    font-size:13px;
+    font-size:17px;
     font-family:'Times New Roman';
     background-color: rgb(73, 22, 6);
 }
@@ -25,9 +25,9 @@
     justify-content: end;
     gap:22px;
     color:rgb(143, 77, 23);
-    margin-top:9px;
+    margin-top:13px;
     margin-right:55px;
-    font-size:13px;
+    font-size:15px;
     background-color:rgb(73, 22, 6);
 }
 .information p{
@@ -38,23 +38,17 @@
     text-decoration: underline;
 }
 .me{
-    display: flex;
-    justify-content: center;
-    margin-top:70px;
-    margin-right:563px;
+    margin-top:35px;
+    margin-left:100px;
 }
-.me input{
-    color:rgb(143, 77, 23);
-    background-color: rgb(240, 242, 243);
-    border:1.6px solid rgb(85, 55, 0);
-    font-size: 8px;
-    font-weight: bold;
-    border-radius:15px;
-    height:25px;
-    width:120px;
+.me img{
+    border-radius: 50%;
+    border: 1px solid rgb(5, 1, 26);
+    height:160px;
+    width:160px;
 }
 .developer{
-    margin-top:8px;
+    margin-top:90px;
     margin-left:117px;
 }
 .developer p{
@@ -72,8 +66,8 @@
 
 }
 .learning p{
-    font-size: 12px;
-    margin-top:5.7px;
+    font-size: 18px;
+    margin-top:5px;
 }
 .learning:hover{
     color:rgb(153, 53, 17);
@@ -90,7 +84,7 @@
     background-color: rgb(201, 117, 39);
     border-radius:20px;
     height:19px;
-    font-size:10px;
+    font-size:15px;
 }
 .view i{
     background-color: rgb(201, 117, 39);
@@ -99,14 +93,18 @@
     color:black;
     border:1.5px solid rgb(167, 103, 60);
     border-radius:20px;
-    font-size:10px;
+    font-size:15px;
     height:18px;
 }
 .currently{
+    float:right;
     border:1.8px solid rgb(179, 120, 81);
     width: 200px;
     border-radius: 10px;
+    font-size: 16px;
+    margin-right: 200px;
+    
 }
 .skills p{
-    font-size: 12px;
+    font-size: 16px;
 }
