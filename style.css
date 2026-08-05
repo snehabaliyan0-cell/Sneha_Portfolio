@@ -47,6 +47,20 @@
     height:160px;
     width:160px;
 }
+.currently{
+    float:right;
+    border: 2px solid rgb(125 66 27);
+    width: 309px;
+    border-radius: 3px;
+    /* font-size: 16px; */
+    margin-right: 200px;
+}
+.currenltly p{
+    font-size:24px;
+}
+.skills p{
+    font-size: 20px;
+}
 .developer{
     margin-top:90px;
     margin-left:117px;
@@ -95,16 +109,4 @@
     border-radius:20px;
     font-size:15px;
     height:18px;
-}
-.currently{
-    float:right;
-    border:1.8px solid rgb(179, 120, 81);
-    width: 200px;
-    border-radius: 10px;
-    font-size: 16px;
-    margin-right: 200px;
-    
-}
-.skills p{
-    font-size: 16px;
 }
