@@ -37,29 +37,42 @@
 .information p:hover{
     text-decoration: underline;
 }
-.me{
-    margin-top:50px;
-    margin-left:100px;
-}
-.me img{
-    border-radius: 5px;
-    border: 1px solid rgb(209, 159, 97);
-    height:100px;
-    width:100px;
-    zoom: 3.5;
-}
-.developer{
-    margin-top:90px;
-    margin-left:117px;
-}
-.developer p{
-    margin-top:5px;
-    font-size: 35px;
-    color:rgb(209, 159, 97);
-}
-.developer p:hover{
+/*.sneha{
+    margin-top: 80px;
+    margin-left: 400px;
+    font-size: 17px;
      color:rgb(6, 47, 94);
 }
+.sneha p{
+    margin-top:3px;
+    font-size: 20px;
+     color:rgb(6, 61, 122);
+    
+}*/
+.me{
+    float: right;
+    margin-right: 100px;
+}
+.me img{
+    border-radius:100px;
+    border: 1px solid rgb(209, 159, 97);
+    height:60px;
+    width:60px;
+    zoom: 3.5;
+}
+.sneha{
+    margin-top: 80px;
+    margin-left: 400px;
+    font-size: 17px;
+     color:whitesmoke;
+}
+.sneha p{
+    margin-top:3px;
+    font-size: 20px;
+     color:rgb(6, 47, 94);
+    
+}
+
 .learning{
     margin-top:22px;
     margin-left:109px;
@@ -67,7 +80,7 @@
 
 }
 .learning p{
-    font-size: 18px;
+    font-size: 16px;
     margin-top:5px;
 }
 .learning:hover{
