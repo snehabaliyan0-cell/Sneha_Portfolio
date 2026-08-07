@@ -80,7 +80,7 @@
      color:rgb(33, 212, 87);
      background-color: rgb(40, 100, 65);
 }*/
-.sneha{
+/*.sneha{
     margin-top: 80px;
     margin-left: 400px;
     
@@ -104,13 +104,16 @@
     font-size: 15px;
      color:rgb(12, 64, 116);
     
-}
+}*/
 .data{
-    margin-left: 50px;
+    margin-left: 40px;
+    margin-top: 90px;
 
 }
 .internship{
-    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
 }
 .internship button{
     font-size: 13px;
@@ -126,11 +129,37 @@
      background-color: rgb(40, 100, 65);
      
 }
+.sneha{
+    margin-top: 30px;
+    margin-left: 430px;
+    
+    
+}
+.sneha b{
+    margin-top:3px;
+    font-size: 27px;
+     color:rgb(237, 240, 243);
+    
+}
+.sneha h6{
+    margin-top:3px;
+    font-size: 25px;
+     color:rgb(8, 48, 88);
+     
+    
+}
+.sneha p{
+    margin-top:3px;
+    font-size: 15px;
+     color:rgb(12, 64, 116);
+    
+}
 .learning{
-    margin-top: 40px;
+    margin-top: 7px;
+    margin-left: 150px;
     display: flex;
     justify-content: center;
-    gap:5px;   
+    gap:5px; 
 }
 .learning button{
     font-size: 13px;
@@ -161,4 +190,15 @@
     color:rgb(12, 162, 248);
     border:1px solid rgb(12, 162, 248);
     background-color: rgb(24, 77, 138);
+}
+.view button{
+    color:rgb(2, 93, 146);
+    border:1px solid rgb(2, 93, 146);
+    background-color: rgb(88, 163, 248);
+    border-radius: 10px;
+}
+.view i{
+    font-size: 10px;
+    color:rgb(2, 93, 146);
+    background-color: rgb(88, 163, 248);
 }
