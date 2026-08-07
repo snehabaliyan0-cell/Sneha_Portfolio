@@ -52,6 +52,7 @@
 .me{
     float: right;
     margin-right: 100px;
+    margin-top: 80px;
 }
 .me img{
     border-radius:100px;
@@ -60,29 +61,104 @@
     width:60px;
     zoom: 3.5;
 }
+/*.internship{
+    margin-top: 40px;
+    
+}
+.internship button{
+    margin-top:2px;
+    font-size: 13px;
+     color:rgb(33, 212, 87);
+     background-color: rgb(40, 100, 65);
+     border-radius: 10px;
+     border: 1.8px solid rgb(30, 175, 43);
+}
+.internship i{
+    margin-top:2px;
+    font-size: 6px;
+    text-align: center;
+     color:rgb(33, 212, 87);
+     background-color: rgb(40, 100, 65);
+}*/
 .sneha{
     margin-top: 80px;
     margin-left: 400px;
-    font-size: 17px;
-     color:whitesmoke;
+    
+    
+}
+.sneha b{
+    margin-top:3px;
+    font-size: 27px;
+     color:rgb(237, 240, 243);
+    
+}
+.sneha h6{
+    margin-top:3px;
+    font-size: 25px;
+     color:rgb(8, 48, 88);
+     
+    
 }
 .sneha p{
     margin-top:3px;
-    font-size: 20px;
-     color:rgb(6, 47, 94);
+    font-size: 15px;
+     color:rgb(12, 64, 116);
     
 }
+.data{
+    margin-left: 50px;
 
+}
+.internship{
+    margin-top: 40px;
+}
+.internship button{
+    font-size: 13px;
+     color:rgb(33, 212, 87);
+     background-color: rgb(40, 100, 65);
+     border-radius: 10px;
+     border: 1.8px solid rgb(30, 175, 43);
+}
+.internship i{
+    font-size: 6px;
+    text-align: center;
+     color:rgb(33, 212, 87);
+     background-color: rgb(40, 100, 65);
+     
+}
 .learning{
-    margin-top:22px;
-    margin-left:109px;
-    color:white;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap:5px;   
+}
+.learning button{
+    font-size: 13px;
+    margin-top:5px;
+    border-radius: 10px;
+    border: 1.8px solid rgb(30, 175, 43);
+    background-color: rgb(40, 100, 65);
+    color:rgb(33, 212, 87);
+}
+.learning i{
+    font-size: 8px;
+    text-align: center;
+     color:rgb(33, 212, 87);
+     background-color: rgb(40, 100, 65);
+}
+.project button{
+    color:rgb(243, 78, 13);
+    border:1px solid rgb(243, 78, 13);
+    background-color: rgb(145, 45, 6);
 
 }
-.learning p{
-    font-size: 16px;
-    margin-top:5px;
+.project i{
+    font-size: 10px;
+    color:rgb(243, 78, 13);
+    background-color: rgb(145, 45, 6);
 }
-.learning:hover{
-    color:rgb(153, 53, 17);
+.pending button{
+    color:rgb(12, 162, 248);
+    border:1px solid rgb(12, 162, 248);
+    background-color: rgb(24, 77, 138);
 }
