@@ -2,6 +2,7 @@
     margin:0;
     background-color: rgb(209, 159, 97);
 }
+/*header*/
 .navbar{
     background-color: rgb(73, 22, 6);
     border-bottom: 2px solid whitesmoke;
@@ -49,6 +50,7 @@
      color:rgb(6, 61, 122);
     
 }*/
+/* image */
 .me{
     float: right;
     margin-right: 100px;
@@ -105,6 +107,7 @@
      color:rgb(12, 64, 116);
     
 }*/
+/*resume-details*/
 .data{
     margin-left: 40px;
     margin-top: 90px;
@@ -142,14 +145,14 @@
     
 }
 .sneha h6{
-    margin-top:3px;
+    margin-top:6px;
     font-size: 25px;
      color:rgb(8, 48, 88);
      
     
 }
 .sneha p{
-    margin-top:3px;
+    margin-top:5px;
     font-size: 15px;
      color:rgb(12, 64, 116);
     
@@ -191,14 +194,63 @@
     border:1px solid rgb(12, 162, 248);
     background-color: rgb(24, 77, 138);
 }
+.view{
+    margin-top: 20px;
+    margin-left: 76px;
+    display: flex;
+    justify-content: center;
+    gap:5px; 
+}
 .view button{
-    color:rgb(2, 93, 146);
-    border:1px solid rgb(2, 93, 146);
-    background-color: rgb(88, 163, 248);
+    height: 30px;
+    width: 110px;
+    color:rgb(10, 145, 223);
+    border:1px solid rgb(10, 145, 223);
+    background-color: rgb(11, 50, 95);
     border-radius: 10px;
 }
 .view i{
     font-size: 10px;
-    color:rgb(2, 93, 146);
-    background-color: rgb(88, 163, 248);
+    color:rgb(10, 145, 223);
+    background-color: rgb(11, 50, 95);
+}
+/*work-experience*/
+.work{
+    margin-top: 120px;
+    margin-left: 40px;
+}
+.work p i{
+    font-size: 8px;
+    color:rgb(6, 2, 43);
+}
+.work p{
+    font-size: 19px;
+    color: rgb(6, 2, 43);
+}
+.web-page{
+    margin-top: 20px;
+    margin-left: 40px;
+    color: rgb(4, 47, 88);
+    font-size: 20px;
+}
+.web-page  i{
+    font-size: 11px;
+    color:rgb(4, 47, 88);
+}
+.completed p{
+    margin-top: 20px;
+    margin-left: 40px;
+    border-radius: 10px;
+    border: 1.8px solid rgb(30, 175, 43);
+    background-color: rgb(40, 100, 65);
+    color:rgb(33, 212, 87);
+    
+}
+.completed i{
+    font-size: 15px;
+    border-radius: 10px;
+    border: 1.8px solid rgb(30, 175, 43);
+    background-color: rgb(40, 100, 65);
+    color:rgb(33, 212, 87);
+    
 }
