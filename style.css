@@ -1,11 +1,14 @@
 *{
     margin:0;
-    background-color: rgb(209, 159, 97);
+    background-color: #e2e2d6;
+    /* width: 345px; */
+    /* margin-left: 0px; */
 }
 /*header*/
+/*section-1*/
 .navbar{
-    background-color: rgb(73, 22, 6);
-    border-bottom: 2px solid whitesmoke;
+    background-color: #1e1e4c;;
+    border-bottom: 4px solid whitesmoke;
     height:45px;
     display:flex;
     justify-content: space-between;   
@@ -16,23 +19,20 @@
     margin-left:105px;
     font-size:17px;
     font-family:'Times New Roman';
-    background-color: rgb(73, 22, 6);
-}
-.name:hover{
-    color:rgb(243, 102, 51);
+    background-color: #1e1e4c;
 }
 .information{
     display: flex;
     justify-content: end;
     gap:22px;
-    color:rgb(143, 77, 23);
+    color:#fffd74;
     margin-top:13px;
     margin-right:55px;
     font-size:17px;
-    background-color:rgb(73, 22, 6);
+    background-color:#1e1e4c;
 }
 .information p{
-    background-color: rgb(73, 22, 6);
+    background-color: #1e1e4c;
     
 }
 .information p:hover{
@@ -51,18 +51,19 @@
     
 }*/
 /* image */
-.me{
-    float: right;
-    margin-right: 100px;
-    margin-top: 80px;
+/*section-2*/
+/*.me{
+    margin-left: 100px;
+    margin-top: 28px;
+    width: 220px;
 }
 .me img{
     border-radius:100px;
-    border: 1px solid rgb(209, 159, 97);
+    border: 1px solid #fffd74;
     height:60px;
     width:60px;
     zoom: 3.5;
-}
+}*/
 /*.internship{
     margin-top: 40px;
     
@@ -107,13 +108,30 @@
      color:rgb(12, 64, 116);
     
 }*/
-/*resume-details*/
-.data{
-    margin-left: 40px;
-    margin-top: 90px;
-
+/*section-3*/
+.resume-data{
+    display:flex;
+    gap: 5px;
 }
-.internship{
+.data{
+    /* display: flex; */
+    margin-left: 57px;
+    margin-top: 30px;
+    width: 365px;
+}
+.me{
+    /* margin-left: 100px; */
+    margin-top: 40px;
+    width: 220px;
+}
+.me img{
+    border-radius:100px;
+    border: 1px solid #e2e2d6;
+    height:60px;
+    width:60px;
+    zoom: 3.5;
+}    
+/*.internship{
     display: flex;
     justify-content: center;
     margin-top: 30px;
@@ -131,33 +149,31 @@
      color:rgb(33, 212, 87);
      background-color: rgb(40, 100, 65);
      
+}*/
+.details{
+    margin-left: 16px;
+    margin-top: 22px;
 }
-.sneha{
-    margin-top: 30px;
-    margin-left: 430px;
-    
-    
-}
-.sneha b{
+.details b{
     margin-top:3px;
     font-size: 27px;
-     color:rgb(237, 240, 243);
+    color:rgb(11, 2, 43);
     
 }
-.sneha h6{
+.details h6{
     margin-top:6px;
-    font-size: 25px;
-     color:rgb(8, 48, 88);
+    font-size: 21px;
+    color:rgb(11, 2, 43);
      
     
 }
-.sneha p{
+.details p{
     margin-top:5px;
-    font-size: 15px;
-     color:rgb(12, 64, 116);
+    font-size: 14px;
+    color:rgb(6, 38, 85);
     
 }
-.learning{
+/*.learning{
     margin-top: 7px;
     margin-left: 150px;
     display: flex;
@@ -168,38 +184,46 @@
     font-size: 13px;
     margin-top:5px;
     border-radius: 10px;
-    border: 1.8px solid rgb(30, 175, 43);
-    background-color: rgb(40, 100, 65);
-    color:rgb(33, 212, 87);
+    border: 1.8px solid rgb(19, 131, 28);
+    color:rgb(19, 131, 28);
+    background-color: aliceblue;
+    font-weight: bold;
 }
 .learning i{
     font-size: 8px;
     text-align: center;
      color:rgb(33, 212, 87);
-     background-color: rgb(40, 100, 65);
-}
-.project button{
-    color:rgb(243, 78, 13);
-    border:1px solid rgb(243, 78, 13);
-    background-color: rgb(145, 45, 6);
+      background-color: aliceblue;
+      font-weight: bold;
+
+}*/
+/*.project button{
+    color:rgb(185, 85, 18);
+    border:1px solid rgb(185, 85, 18);
+     background-color: aliceblue;
+     font-weight: bold;
+
 
 }
 .project i{
     font-size: 10px;
     color:rgb(243, 78, 13);
-    background-color: rgb(145, 45, 6);
+     background-color: aliceblue;
+     font-weight: bold;
+
 }
 .pending button{
     color:rgb(12, 162, 248);
     border:1px solid rgb(12, 162, 248);
-    background-color: rgb(24, 77, 138);
-}
+     background-color: aliceblue;
+     font-weight: bold;
+
+}*/
 .view{
-    margin-top: 20px;
-    margin-left: 76px;
+    margin-top: 21px;
+    margin-left: 20px;
     display: flex;
-    justify-content: center;
-    gap:5px; 
+    gap:5px;
 }
 .view button{
     height: 30px;
@@ -214,43 +238,150 @@
     color:rgb(10, 145, 223);
     background-color: rgb(11, 50, 95);
 }
-/*work-experience*/
-.work{
-    margin-top: 120px;
-    margin-left: 40px;
+/*section-3*/
+.box1{
+    background-color:#1e1e4c;
+    float:right;
+    margin-right: 539px;
+    width: 370px;
+    border:2px solid #1e1e4c;
+    padding-right: 37px;
+    padding-left: 20px;
+    border-radius: 55px;
+    margin-top: 79px;
 }
-.work p i{
+.langauge{
+    margin-top: 28px;
+    margin-left:20px;
+    
+}
+.langauge p i{
     font-size: 8px;
-    color:rgb(6, 2, 43);
+    color: #fffd74;
+    background-color: #1e1e4c;
 }
-.work p{
-    font-size: 19px;
-    color: rgb(6, 2, 43);
+.langauge p{
+    font-size: 18px;
+    color: #fffd74;
+    background-color: #1e1e4c;
 }
-.web-page{
-    margin-top: 20px;
-    margin-left: 40px;
-    color: rgb(4, 47, 88);
-    font-size: 20px;
+.completed{
+    background-color: #1e1e4c;
 }
-.web-page  i{
-    font-size: 11px;
-    color:rgb(4, 47, 88);
-}
-.completed p{
-    margin-top: 20px;
-    margin-left: 40px;
+.completed button{
+    margin-top: 11px;
+    font-size: 12px;
+    margin-left: 12px;
+    color:rgb(33, 212, 87);
+    background-color: rgb(40, 100, 65);
     border-radius: 10px;
     border: 1.8px solid rgb(30, 175, 43);
-    background-color: rgb(40, 100, 65);
-    color:rgb(33, 212, 87);
-    
 }
 .completed i{
+    font-size: 10px;
+    text-align: center;
+    color:rgb(33, 212, 87);
+    background-color: rgb(40, 100, 65);
+}
+.completed p{
     font-size: 15px;
+    margin-top: 16px;
+    margin-left: 19px;
+    color:rgb(243, 243, 245);
+}
+.in-progress{
+    margin-top: 11px;
+    background-color: #1e1e4c;
+}
+.in-progress button{
+    margin-top: 8px;
+    font-size: 12px;
+    margin-left: 9px;
+    color:rgb(10, 145, 223);
+    border:1px solid rgb(10, 145, 223);
+    background-color: rgb(11, 50, 95);
+    border-radius: 10px;
+    margin-bottom: 17px;
+}
+.in-progress i{
+    font-size: 10px;
+    text-align: center;
+    color:rgb(10, 145, 223);
+     background-color: rgb(11, 50, 95);
+}
+.in-progress p{
+    font-size: 15px;
+    margin-top: 16px;
+    margin-left: 20px;
+    color:rgb(243, 243, 245);
+    margin-bottom: 13px;
+}
+.box2{
+     background-color:#1e1e4c;
+     float:right;
+     margin-right: -545px;
+     width: 370px;
+     border:2px solid #1e1e4c;
+     padding-right: 31px;
+     padding-left: 12px;
+     border-radius: 31px;
+     margin-top: -369px;
+     /* gap: 4px; */
+}
+.Technical{
+     margin-top: 25px;
+     margin-left: 19px;
+}
+.Technical p{
+    font-size: 14px;
+    color: #fffd74;
+    background-color: #1e1e4c;
+}
+.skills{
+    /* margin-top: 13px; */
+    background-color: #1e1e4c;
+}
+.skills b{
+    /* margin-top: 99px; */
+    color:whitesmoke;
+    background-color: #1e1e4c;
+    font-size: 12px;
+}
+.code {
+    background-color: #1e1e4c;
+}
+.code button{
+    margin-top: 11px;
+    font-size: 11px;
+    margin-left: 13px;
+    color:rgb(33, 212, 87);
+    background-color: rgb(40, 100, 65);
     border-radius: 10px;
     border: 1.8px solid rgb(30, 175, 43);
-    background-color: rgb(40, 100, 65);
-    color:rgb(33, 212, 87);
-    
 }
+.code i{
+    font-size: 16px;
+    text-align: center;
+    color:rgb(33, 212, 87);
+    background-color: rgb(40, 100, 65);
+}
+.running{
+    background-color: #1e1e4c;
+}
+.running button{
+    margin-top: 11px;
+    font-size: 11px;
+    margin-left: 13px;
+    color:rgb(10, 145, 223);
+    border:1px solid rgb(10, 145, 223);
+    background-color: rgb(11, 50, 95);
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.footer{
+     background-color: #1e1e4c;
+}
+.footer p{
+     color: #fffd74;
+}
+
