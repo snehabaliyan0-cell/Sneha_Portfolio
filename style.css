@@ -111,7 +111,8 @@
 /*section-3*/
 .resume-data{
     display:flex;
-    gap: 5px;
+    /* justify-content: center; */
+    gap: 59px;
 }
 .data{
     /* display: flex; */
@@ -242,13 +243,13 @@
 .box1{
     background-color:#1e1e4c;
     float:right;
-    margin-right: 539px;
+    margin-right: 8px;
     width: 370px;
     border:2px solid #1e1e4c;
-    padding-right: 37px;
-    padding-left: 20px;
-    border-radius: 55px;
-    margin-top: 79px;
+    padding-right: 23px;
+    /* padding-left: 20px; */
+    border-radius: 25px;
+    margin-top: 34px;
 }
 .langauge{
     margin-top: 28px;
@@ -267,6 +268,7 @@
 }
 .completed{
     background-color: #1e1e4c;
+    /* margin-bottom: -2px; */
 }
 .completed button{
     margin-top: 11px;
@@ -290,7 +292,7 @@
     color:rgb(243, 243, 245);
 }
 .in-progress{
-    margin-top: 11px;
+    margin-top: -1px;
     background-color: #1e1e4c;
 }
 .in-progress button{
@@ -319,13 +321,14 @@
 .box2{
      background-color:#1e1e4c;
      float:right;
-     margin-right: -545px;
-     width: 370px;
+     margin-right: 55px;
+     width: 352px;
+     height: 178px;
      border:2px solid #1e1e4c;
      padding-right: 31px;
      padding-left: 12px;
-     border-radius: 31px;
-     margin-top: -369px;
+     border-radius: 15px;
+     margin-top: 38px;
      /* gap: 4px; */
 }
 .Technical{
@@ -378,10 +381,21 @@
     border-radius: 10px;
     margin-bottom: 15px;
 }
-.footer{
-     background-color: #1e1e4c;
+.foot{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color: #1e1e4c;
+    margin-top: 507px;
+    height: 60px;
 }
-.footer p{
-     color: #fffd74;
+.foot p{
+    font-size: 14px;
+    color:#fffd74;
+    background-color:#1e1e4c;
+}
+.foot i{
+     color:#fffd74;
+    background-color:#1e1e4c;
 }
 
