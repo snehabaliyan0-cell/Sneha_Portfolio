@@ -31,11 +31,11 @@
     font-size:17px;
     background-color:#1e1e4c;
 }
-.information p{
+.information a{
     background-color: #1e1e4c;
     
 }
-.information p:hover{
+.information a:hover{
     text-decoration: underline;
 }
 /*.sneha{
@@ -386,8 +386,8 @@
     justify-content:center;
     align-items:center;
     background-color: #1e1e4c;
-    margin-top: 507px;
-    height: 60px;
+    margin-top: 547px;
+    height: 52px;
 }
 .foot p{
     font-size: 14px;
@@ -398,4 +398,9 @@
      color:#fffd74;
     background-color:#1e1e4c;
 }
-
+.project{
+    background-color:#fffd74;
+}
+.project a{
+    color:#1e1e4c;
+}
