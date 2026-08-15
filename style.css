@@ -33,6 +33,7 @@
 }
 .information a{
     background-color: #1e1e4c;
+    color:#fffd74;
     
 }
 .information a:hover{
@@ -398,9 +399,109 @@
      color:#fffd74;
     background-color:#1e1e4c;
 }
+/*Project.html*/
+/*Section-1*/
 .project{
+    background-color: #fffd74;
+    border-bottom: 4px solid rgb(37, 3, 3);
+    height: 43px;
+    display:flex;
+    justify-content: space-between;
+}
+.nav{
+    margin-top:6px;
+    margin-left: 89px;
+    background-color: #fffd74;
+}
+.nav a{
+    color: rgb(140 63 15);
+    /* margin-top: 121px; */
+    font-size: 20px;
+    font-family:'Times New Roman';
+    background-color: #fffd74;
+}
+.link{
+    display:flex;
+    justify-content: end;
+    gap:22px;
+    color:#1e1e4c;
+    margin-top:11.6px;
+    margin-right:55px;
+    font-size: 18px;
     background-color:#fffd74;
 }
-.project a{
+.link a{
+    background-color: #fffd74;
+    color:#1e1e4c;
+    
+}
+/*Education.html*/
+/*Section-1*/
+.education{
+    background-color: #fffd74;
+    border-bottom: 4px solid rgb(37, 3, 3);
+    height: 43px;
+    display:flex;
+    justify-content: space-between;
+}
+.homebar{
+    margin-top:6px;
+    margin-left: 89px;
+    background-color: #fffd74;
+}
+.homebar a{
+    color: rgb(140 63 15);
+    /* margin-top: 121px; */
+    font-size: 20px;
+    font-family:'Times New Roman';
+    background-color: #fffd74;
+}
+.web-pages{
+     display:flex;
+    justify-content: end;
+    gap:22px;
+    color:#1e1e4c;
+    margin-top:11.6px;
+    margin-right:55px;
+    font-size: 18px;
+    background-color:#fffd74;
+}
+.web-pages a{
+    background-color:#fffd74;
+    color:#1e1e4c;
+}
+/*Contact.html*/
+/*Section-1*/
+.contact{
+     background-color: #fffd74;
+    border-bottom: 4px solid rgb(37,3,3);
+    height: 43px;
+    display:flex;
+    justify-content: space-between;
+}
+.home{
+     margin-top:6px;
+    margin-left: 89px;
+    background-color: #fffd74;
+}
+.home a{
+     color: rgb(140 63 15);
+    /* margin-top: 121px; */
+    font-size: 20px;
+    font-family:'Times New Roman';
+    background-color: #fffd74;
+}
+.options{
+      display:flex;
+    justify-content: end;
+    gap:22px;
+    color:#1e1e4c;
+    margin-top:11.6px;
+    margin-right:55px;
+    font-size: 18px;
+    background-color:#fffd74;
+}
+.options a{
+     background-color:#fffd74;
     color:#1e1e4c;
 }
