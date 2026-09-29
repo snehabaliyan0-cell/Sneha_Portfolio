@@ -461,14 +461,14 @@
     margin-top: 11.6px;
     margin-right:55px;
     font-size: 18px;
-    background-color: 90AEAD;
+    background-color: #90AEAD;
 }
 .link a{
     color: #040433;
 }
 .project-box{
     /* border: 3px solid #90aead; */
-    radius:10px;
+    border-radius:10px;
 }
 .container1{
     /* margin-top: 6px; */
@@ -506,7 +506,7 @@
 .container2 p{
     margin-top:1.3px;
     margin-left:30px;
-    color:#fbe9do;
+    color:#fbe9d0;
 }
 .amazon p{
     margin-top:6px;
@@ -739,13 +739,12 @@
      background-color: #244855;
      color: #040433;
 }
-/*.Communicate{
+.Communicate{
     background-color:#874f41;
     /* color:#e2e2d6; */
     display: flex;
     justify-content: center;
 }
-*/
 .Communicate p{
     border: 5px solid #874f41;
     background-color:#874f41;
