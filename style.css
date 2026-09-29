@@ -447,7 +447,7 @@
     background-color: #244855;
 }
 .nav a{
-    color: #FBE9D0;
+    color: #caae86;
     /* margin-top: 121px; */
     font-size: 20px;
     font-family:'Times New Roman';
@@ -464,7 +464,7 @@
     background-color: 90AEAD;
 }
 .link a{
-    color: #e64833;
+    color: #040433;
 }
 .project-box{
     /* border: 3px solid #90aead; */
@@ -564,7 +564,7 @@
     background-color: #244855;
 }
 .homebar a{
-    color: #adbbda;
+    color: #caae86;
     /* margin-top: 121px; */
     font-size: 20px;
     font-family:'Times New Roman';
@@ -582,16 +582,17 @@
 }
 .web-pages a{
     background-color: #244855;
-    color: #e64833;
+    color: #040433;
 }
 .image{
     float:right;
     /* width: 220px; */
+    background-color: rgb(11,50,95);
 }
 .image img{
     border: 1px solid rgb(11, 50, 95);
-    height:160px;
-    width: 220px;
+    height: 140px;
+    width: 238px;
     zoom: 3.5;
 }
 .education-box{
@@ -601,6 +602,7 @@
     border-radius: 8px;
     margin-left: 20px;
     margin-right: 842px;
+    /* background-color: rgb(8, 48, 88); */
 }
 .academic{
     background-color:#90aead;
@@ -717,7 +719,7 @@
      background-color: #244855;
 }
 .home a{
-     color: #fbe9d0;
+     color: #caae86;
      /* margin-top: 121px; */
      font-size: 20px;
      font-family:'Times New Roman';
@@ -735,5 +737,176 @@
 }
 .option a{
      background-color: #244855;
-     color: #e64833;
+     color: #040433;
+}
+/*.Communicate{
+    background-color:#874f41;
+    /* color:#e2e2d6; */
+    display: flex;
+    justify-content: center;
+}
+*/
+.Communicate p{
+    border: 5px solid #874f41;
+    background-color:#874f41;
+    color: #fbe9d0;
+    font-size: 15px;
+}
+
+.connect{
+   /* margin-top: 0px; */
+   background-color:#90aead;
+   border-top: 6px solid #90aead;
+   border-bottom: 6px solid #90aead;
+}
+.connect h6{
+     background-color:#90aead;
+     color: #13134e;
+     font-size: 15px;
+     margin-left: 25px;
+}
+.connect p{
+     margin-top: 9px;
+     background-color:#90aead;
+     color: #20207f;
+     font-size: 15px;
+     margin-left: 27px;
+     /* font-style: normal; */
+     font-weight: 900;
+}        
+.Contact-information{
+    background-color: #27275a;
+    border-top: 13px solid #27275a;
+    border-bottom: 13px solid #27275a;
+}
+.Contact-information h6{
+     margin-bottom: 13px;
+     background-color: #27275a;
+     color: #e7e6ce;
+     font-size: 15px;
+     margin-left: 26px;
+}
+.Contact-information p{
+    background-color: #27275a;
+    color: #9cc3c2;
+    margin-left: 30px;
+    font-size:16px;
+}
+.i{
+    margin-left: 26px;
+    font-size:10px;
+    
+}
+.contact-box{
+    float: left;
+    background-color:#f6f489;
+    height:50px;
+    width:600px;
+    margin-left: 350px;
+    margin-top: 10px;
+    /* border: 1px solid #f6f489; */
+    border-radius: 12px;
+}
+.Contact-form{
+     background-color: #f6f489;
+     /* color:#e2e2d6; */
+     display: flex;
+     justify-content: center;
+}
+.Contact-form p{
+      /* border: 5px solid #f6f489; */
+      background-color: #f6f489;
+      color: #b98031;
+      font-size: 19px;
+}
+.form{
+    background-color: #f6f489;
+    border-top: 6px solid #f6f489;
+    border-bottom: 6px solid #f6f489;
+}
+.label1{
+    display:flex;
+    font-size: 15px;
+    /* border: 5px solid #f6f489; */
+    background-color: #f6f489;
+    margin-top: 8px;
+    margin-left:26px;
+    font-weight:bold;
+}
+.label1 label{
+    color:#13134e;
+    background-color: #f6f489;
+}
+.label1 input{
+     color:#13134e;
+     background-color: #f6f489;
+     border:2px solid #cdc3b5;
+}
+.label2{
+    display:flex;
+    font-size: 15px;
+    /* border: 5px solid #f6f489; */
+    background-color: #f6f489;
+    margin-top: 8px;
+    margin-left:26px;
+    font-weight:bold;
+}
+.label2 label{
+    color:#13134e;
+    background-color: #f6f489;
+}
+.label2 input{
+     color:#13134e;
+     background-color: #f6f489;
+     border:2px solid #cdc3b5;
+}
+.label3{
+    display:flex;
+    font-size: 15px;
+    /* border: 5px solid #f6f489; */
+    background-color: #f6f489;
+    margin-top: 8px;
+    margin-left:26px;
+    font-weight:bold;
+}
+.label3 label{
+    color:#13134e;
+    background-color: #f6f489;
+}
+.label3 input{
+     color:#13134e;
+     background-color: #f6f489;
+     border:2px solid #cdc3b5;
+}
+.label4{
+    display:flex;
+    font-size: 15px;
+    /* border: 5px solid #f6f489; */
+    background-color: #f6f489;
+    margin-top: 8px;
+    margin-left:26px;
+    font-weight:bold;
+}
+.label4 label{
+    color:#13134e;
+    background-color: #f6f489;
+}
+.label4 textarea{
+     color:#13134e;
+     background-color: #f6f489;
+     border:2px solid #cdc3b5;
+}
+.label5{
+     display:flex;
+     font-size: 15px;
+     font-weight:bold;
+     /* border: 5px solid #f6f489; */
+     background-color: #f6f489;
+     margin-top: 8px;
+     margin-left:26px;
+     color:#13134e;
+}
+.label5 input{
+     color:#13134e;
+    border:2px solid #050526;
 }
