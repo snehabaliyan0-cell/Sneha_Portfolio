@@ -811,6 +811,7 @@
      /* color:#e2e2d6; */
      display: flex;
      justify-content: center;
+     border-radius: 10px;
 }
 .Contact-form p{
       /* border: 5px solid #f6f489; */
@@ -822,6 +823,7 @@
     background-color: #f6f489;
     border-top: 6px solid #f6f489;
     border-bottom: 6px solid #f6f489;
+    border-radius: 16px;
 }
 .label1{
     display:flex;
